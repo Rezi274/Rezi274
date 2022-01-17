@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there, Belajar Git 👋
 
 <!--
 **Rezi274/Rezi274** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
