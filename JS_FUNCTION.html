@@ -8,28 +8,24 @@
 <body>
 <script>
 	let angka
-	let player
 
 	alert(`Mainkan game tebakan angka ini, anda akan
 		menebak angka mulai dari 1 -0, dan anda memiliki kesempatan untuk menebak sebanyak 5x. SELAMAT BERMAIN`)
-	prompt("Maasukan Angka Tebakan Anda");
+
+	const player1 = prompt("PLAYER 1 Maasukan Angka Tebakan Anda");
+	const player2 = prompt("PLAYER 1 Maasukan Angka Tebakan Anda");
 
     angka = Math.floor(Math.random() * 3 + 1);
       
     
-   if(angka == 1)
-   {    
-       alert("SELAMAT TEBAKAN ANDA BENAR"
-               );
-   }else if(angka >= 2) 
-   {    
-       
-       alert("OOPS SORRY!! TEBAKAN ANDA SALAH, SILAHKAN COBA LAGI");
-   }
-   else
-   {
-       
-       alert("OOPS SORRY!! TEBAKAN ANDA SALAH, SILAHKAN COBA LAGI")
+   if(player1 == player2) {    
+        alert("DRAW, SILAHKAN MENCOBA LAGI");
+   } else if(player1 == angka) {       
+        alert("SELAMAT PLAYER 1 MENANG");
+   } else if(player2 == angka) {
+   		alert("SELAMAT PLAYER 2 MENANG");
+   } else {
+        alert("TIDAK ADA YANG MENANG, SILAHKAN COBA LAGI");
    }
 
 </script>
