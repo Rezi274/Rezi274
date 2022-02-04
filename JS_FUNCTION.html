@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GAME TEBAK ANGKA</title>
+</head>
+<body>
+<script>
+	let angka
+	let player
+
+	alert(`Mainkan game tebakan angka ini, anda akan
+		menebak angka mulai dari 1 -0, dan anda memiliki kesempatan untuk menebak sebanyak 5x. SELAMAT BERMAIN`)
+	prompt("Maasukan Angka Tebakan Anda");
+
+    angka = Math.floor(Math.random() * 3 + 1);
+      
+    
+   if(angka == 1)
+   {    
+       alert("SELAMAT TEBAKAN ANDA BENAR"
+               );
+   }else if(angka >= 2) 
+   {    
+       
+       alert("OOPS SORRY!! TEBAKAN ANDA SALAH, SILAHKAN COBA LAGI");
+   }
+   else
+   {
+       
+       alert("OOPS SORRY!! TEBAKAN ANDA SALAH, SILAHKAN COBA LAGI")
+   }
+
+</script>
+</body>
+</html>
